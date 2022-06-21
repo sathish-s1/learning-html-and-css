@@ -1,6 +1,6 @@
 *
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     box-sizing: border-box;
     padding: 0%;
     margin: 0%;
@@ -11,11 +11,12 @@
 {
     width: 100%;
     height: 60px;
-    background-color: black transparent ;
+    background-color:black ;
     position: absolute;
     top: 0px;
     left: 0px;
-}
+    overflow: hidden;
+} 
 .hero
 {
     width: 100%;
@@ -24,13 +25,13 @@
     background-position: center;
     background-image: url('../image/maxresdefault.jpg');
 }
-h3
+.option h3
 {
     color: white;
     font-size: 20px;
-
-    top: 12px;
-    margin: 18px 15px;
+    position: absolute;
+    top: 19px;
+    left: 50px;
     letter-spacing: 0px;
     align-items: center;
     
@@ -88,18 +89,208 @@ nav .btn:hover
   border: 1px solid white;
   border-color: white;
   transform: scale(1.3);
+  cursor: pointer;
 }
 
 /* header potion end */
 /* Contant potion start */
 
+  
 
+.hero .image #image
+{
+    width: 50px;
+    height: 50px;
+    left: 0%;
+    position: absolute;
+    margin-top: 2px
+    
+}
+.hero .image #image:hover
+{
+   cursor: pointer;
+}
+.contant .mid
+ {
+    
+    float: initial;
+    top: 30%;
+    left: 26%;
+    position: absolute;
 
+}
+.contant .mid p
+{
+    font-size: 12px;
+    color: white;
+    
+}
+.contant .mid h3
+{
+    color: darkslateblue;
+    font-size: 50px;
+    display: flex;
+    gap: 14px;
+}
+.sub form
+{
+    margin-top: 28%;
+    position: absolute;
+    margin-inline:10% ;
+    left: 300px;
+}
+.sub form input:first-child
+{
+    width: 100%;
+    border-radius: 0%;
+    border-color: rgb(75, 25, 225);
+    padding: 7px 140px 10px 14px;
+    display: inline-block;
+    border-radius: 50px;
 
+}
+.sub form input:last-child
+{
+    top: 3px;
+    border: none;
+    border-radius: 50px;
+    right: 3px;
+    bottom: 3px;
+    position: absolute;
+    padding: 5px 5px;
+    display: inline-block;
+    box-shadow: 0px 0 40px #0051ff;
+    background-color: rgb(65, 17, 224);
+    color: white;
+}
 
+input[type="text"]::placeholder
+{
 
-
-
-
-
+    color: rgb(26, 20, 212)
+}
+.sub form input:last-child:hover
+{
+    cursor: pointer;
+}
 /* Contant potion end */
+
+/* about me potion start */
+.about_me
+{
+    background-color: rgb(9, 8, 9);
+    border-radius: 5px; 
+    position: relative;
+    height: 600px;
+}
+.about_me .aboutcontant #about1
+{
+  
+   top: 80px;
+   left: 11%;
+   position: absolute;
+   text-align: center;
+   color: white;
+    
+    
+}
+.about_me .main img
+{
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: 150px;
+    margin-left: 10%;
+}
+.about_me .card1
+{
+    height: 300px;
+    width: 600px;
+    border-radius: 40px;
+    background-color: rgb(234, 239, 235);
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    word-spacing: 4px;
+    row-gap: 2px;
+}
+.about_me .card1:hover
+{
+    background-color: rgb(37, 169, 246);
+    color: white;
+}
+.card1 a
+{
+    text-decoration: none;
+    padding: 5px 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 40px;
+
+}
+/* about me potion end */
+/* Skills and Project potionn start */
+
+.skill
+{
+    background-color: rgb(9, 8, 9);
+    border-radius: 5px; 
+    height: 600px;
+    width: 100%;
+}
+#hd0
+{
+    color: white;
+    text-align: center;
+    padding-top: 4%;
+}
+.card #hd1
+{
+    color: rgb(20, 19, 19);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 3%;
+}
+.card li
+{
+    list-style: none;
+    text-align: center;
+    margin-top: 7%;
+}
+.box
+{
+    display: flex;
+    color: rgb(17, 10, 10);
+    gap: 50px;
+    justify-content: center;
+}
+.box .card
+{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-top: 10%;
+    align-items: center;
+    border-radius: 40px;
+}
+.card a
+{
+  justify-content: center;
+  margin-left: 38%;
+  margin-bottom:4%;
+}
+.git
+{
+    font-size: 30px;
+}
+
+
+
+
+
+
+/* Skills and Project potion end */
